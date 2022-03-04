@@ -10,13 +10,13 @@ function App() {
       <BrowserRouter>
       <div className = "App">
         <Header/>
-          <routes>
-            <Route path = '/items' element = {<AllItemsPage/>}/>
+          <Routes>
+            <Route path = '/' element = {<AllItemsPage/>}/>
             <Route path = '/sell' element = {<SellItemPage/>}/>
-          </routes> 
+          </Routes> 
       </div>
-  );
       </BrowserRouter>
+  );
 }
 
 export default App;

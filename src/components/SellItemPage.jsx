@@ -6,3 +6,5 @@ return (
     </div>
 )
 }
+
+export default SellItemPage;
